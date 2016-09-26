@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+#search {
+	min-width: 1263px;
+	width: 100%;
+	height: 600px;
+	background: url(../img/search.jpg) no-repeat center;
+	position: relative;
+}
+#search .center {
+	width: 600px;
+	height: 60px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -30px 0 0 -300px;
+	border-radius: 10px;
+	opacity: 0.6;
+}
+#search .search {
+	width: 446px;
+	height: 52px;
+	background: #eee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -296px;
+	padding: 0 10px;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 24px;
+	color: #666;
+	outline: none;
+}
+#search .button {
+	width: 120px;
+	height: 54px;
+	background-color: #eee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 175px;
+	color: #666;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+#tour {
+	width: 1263px;
+	height: 1150px;
+	margin: 30px auto;
+	text-align: center;
+}
+#tour .center h2 {
+	font-size: 45px;
+	letter-spacing: 2px;
+	margin: 10px 0;
+	color: #666;
+}
+#tour .center p {
+	color: #666;
+	margin: 10px 0;
+}
+#tour figure {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	display: inline-block;
+	width: 380px;
+	padding: 4px;
+	margin: 15px 12px;
+	position: relative;
+	text-align: left;
+}
+#tour figure img {
+	vertical-align: middle;
+}
+#tour figure figcaption {
+	color: #777;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	padding: 7px 0 5px 0;
+}
+#tour .info {
+	padding: 5px 0 0 0;
+}
+#tour .title {
+	font-weight: normal;
+	color: #333;
+}
+#tour .sat {
+	float: right;
+	font-style: normal;
+	font-size: 13px;
+	color: #999;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+#tour .price {
+	color: #f60;
+	font-size: 14px;
+}
+#tour .price strong {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#tour .type{
+	background-color: #59b200;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-bottom-right-radius: 4px;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
