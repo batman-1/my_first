@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+html {
+	font-size: 100%;
+}
+
+/*h1 {
+	font-size: 3em;
+}
+p {
+	font-size: 1.4em;
+}
+p code {
+	font-size: 0.78em;  
+}*/
+h1 {
+	font-size: 3rem;
+}
+p {
+	font-size: 1.4rem;
+}
+p code {
+	font-size: 1.4rem;
+}
+h1 {
+	text-shadow:0px 0px 0 rgb(188,178,188),
+				1px 0px 0 rgb(173,163,173),
+				2px 0px 0 rgb(157,147,157),
+				3px 0px 0 rgb(142,132,142),
+				4px 0px 0 rgb(126,116,126),
+				5px 0px 0 rgb(111,101,111),
+				6px 0px 0 rgb(95,85,95),
+				7px 0px 0 rgb(79,69,79),
+				8px 0px 7px rgba(0,0,0,0.35),
+				8px 0px 1px rgba(0,0,0,0.5),
+				0px 0px 7px rgba(0,0,0,0.2);
+}
+p {
+	background: silver;
+	width: 160px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

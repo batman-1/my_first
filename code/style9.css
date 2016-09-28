@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+	margin:100px;
+}
+div {
+	width: 200px;
+	height: 200px;
+	background: white;
+	border: 1px solid green;
+	color:#000;
+	/*transition-property: background, margin-left, color;*/
+	/*transition-duration: 1s;
+    transition-timing-function: ease-in;*/
+    /*transition-timing-function: ease-out;*/
+    /*transition-timing-function: ease-in-out;*/
+    /*transition-timing-function: steps(10,start);*/
+   /* transition-timing-function: steps(2,start);*/
+    /*transition-delay: 1s;*/
+    /*transition-delay: 0s,0s,3s;*/
+    /*transition: backround 1s ease 0s,margin-left,1s ease 0s,color 1s ease 0s;*/
+    -o-transition:all 1s linear 0s;
+    -webkit-transition:all 1s linear 0s;
+    -ms-transition:all 1s linear 0s;
+    -moz-transition:all 1s linear 0s;
+    transition:all 1s linear 0s;
+
+}
+div:hover {
+	background:#000;
+	color: #fff;
+	margin-left: 100px;
+}

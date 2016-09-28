@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+	margin: 200px;
+}
+#a {
+
+	transform-style: preserve-3d;
+	perspective:1000px;
+	/*perspective-origin: left center;*/
+	position: relative;
+}
+img {
+	/*transform: translate3d(100px,100px,100px);*/
+	/*transform: translatez(-400px);*/
+	/*transform: scale3d(1,1,0.2) rotatex(45deg);*/
+	/*transform: scalez(1.5) rotatex(40deg);*/
+/*	/*transform: rotate3d(1,0,0,45deg);*/
+	/*transform: rotatex(45deg);*/
+	/*transform: rotatez(45deg);*/
+	/*transform: rotatey(-80deg);*/
+	-o-transform: rotatex(20deg);
+	-moz-transform: rotatex(20deg);
+	-ms-transform: rotatex(20deg);
+	-webkit-transform: rotatex(20deg);
+	
+	transform: rotatex(20deg);
+	position: absolute;
+	left:0 ; 
+	top: 0;
+	z-index: 9999;
+}
+img.two {
+	transform: rotatex(30deg);
+	position: absolute;
+	left: 20px; 
+	top: 10px;
+}
+img.three {
+	transform: rotatex(60deg);
+	position: absolute;
+	left: 80px; 
+	top: 20px;
+}

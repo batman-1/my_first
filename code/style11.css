@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	width: 960px;
+	height: 120px;
+	background-color: silver;
+}
+aside {
+	width: 200px;
+	height: 500px;
+	background-color: green;
+	float: left;
+	resize: both;
+	overflow: auto;
+}
+section {
+	width: 760px;
+	height: 500px;
+	background-color: orange;
+	float: right;
+}
+footer {
+	width: 960px;
+	height: 120px;
+	background-color: blue;
+	clear: both;
+}

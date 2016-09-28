@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*p {
+	background: purple;
+	height: 3em;
+	font-size: 50px;
+}*/
+body {
+	font-size: 40px;
+}
+/*p {
+	font-size: larger;
+}*/
+/*p {
+	font-variant: small-caps;
+}*/
+/*p {
+	font-style: italic;
+}*/
+/*p {
+	font-weight: lighter;
+}*/
+/*p {
+	font-family: 宋体;
+}*/
+/*p {
+	font: italic 60px 楷体;
+}*/
+@font-face {
+	font-family: 'abc';
+	src: url(04B_21__.TTF);
+}
+p {
+	font-family: abc;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+p {
+	width: 150px;
+	border: 1px solid gray;
+	background: silver;
+	margin: 5px;
+	padding: 5px;
+}
+div {
+	width: 100%;
+	/*display: -moz-box;
+	display: -webkit-box;*/
+	/*-moz-box-orient: vertical;*/
+	/*-moz-box-orient: inline-axis;*/
+	/*-moz-box-orient:block-axis;*/
+	/*-moz-box-direction: normal;*/
+	/*-moz-box-direction: reverse;*/
+	/*-moz-box-pack: end;*/
+	/*-moz-box-pack:justify;*/
+	/*-moz-box-align: start;*/
+	/*-moz-box-align: end;*/
+	/*-moz-box-align: center;*/
+	/*-moz-box-align: baseline;*/
+	/*-moz-box-align: stretch;*/
+	/*-moz-box-align: start;*/
+	/*以下是新版*/
+	display: flex;
+	/*flex-direction: column;*/
+	/*flex-direction: column-reverse;*/
+	/*flex-direction: row-reverse;*/
+	/*flex-wrap: nowrap;*/
+	/*flex-wrap: wrap;*/
+	/*flex-wrap: wrap-reverse;*/
+	flex-flow: row wrap;
+	/*justify-content: flex-start;*/
+	/*justify-content: flex-end;*/
+	/*justify-content: space-between;*/
+	/*justify-content: space-around;*/
+	/*align-items: flex-start;*/
+	/*align-items: flex-end;*/
+	
+}
+/*p:nth-child(1) {
+	-moz-box-flex: 1;
+	-moz-box-ordinal-group: 3;
+}
+p:nth-child(2) {
+	-moz-box-flex: 2.5;
+	-moz-box-ordinal-group: 1;
+}
+p:nth-child(3) {
+	-moz-box-flex: 1;
+	-moz-box-ordinal-group: 2;
+}*/
+/*以下是新版*/
+/*p:nth-child(1) {
+	flex: 1;
+	order: 3;
+}*/
+/*p:nth-child(2) {
+	flex: 3;
+	align-self: center;
+	order: 2;
+}*/
+/*p:nth-child(3) {
+	flex: 1;
+	align-self: flex-end;
+	order: 1;
+}*/

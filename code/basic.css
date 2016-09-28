@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*:root {
+	border: 1px solid purple;
+}*/
+/*ul > li:first-child {
+	color:red;
+}*/
+/*ul > li:last-child {
+	color: red;
+}*/
+/*ul > li:only-child {
+	color: red;
+}*/
+/*div > p:only-of-type {
+	color: red;
+}*/
+/*ul > li:nth-child(2) {
+	color: red;
+}*/
+/*ul > li:nth-last-child(2) {
+	color: red;
+}*/
+/*div > p:nth-of-type(2) {
+	color: red;
+}*/
+/*div > p:nth-last-of-type(2) {
+	color: red;
+}*/
+/*:enabled {
+	border: 1px solid red;
+}*/
+/*:disabled {
+	border: 1px solid orange;
+}*/
+/*:checked {
+	display: none;
+}*/
+/*:default {
+	display: none;
+}*/
+input:valid {
+	border: 1px solid red;
+}
+input:invalid {
+	border: 1px solid green;
+}
+/*input:required {
+	border: 1px solid red;
+}
+input:optional {
+	border: 1px solid green;
+}*/
+
+/*input:focus {
+	background:red;
+	border: 1px solid green;
+}*/
+/*a:link {
+	color: red;
+}
+a:visited {
+	color: green;
+}
+a:active {
+	color: orange;
+}
+a:hover {
+	color:purple;
+}*/
+/*[href*="baidu"] {
+	color: red;
+}*/
+/*a:not([href*="baidu"]) {
+	color: orange;
+}*/
+/*:empty {
+	display:none;
+}*/
+/*:lang(en) {
+	color:red;
+}*/
+/*:target {
+	color: red;
+}*/
+::selection {
+	color:red;
+}
+
+div > p:only-of-type {
+	color:red;
+}
+ul > li:nth-child(2) {
+	color:orange;
+	

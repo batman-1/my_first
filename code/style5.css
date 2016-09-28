@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+p {
+	width: 600px;
+	height: 300px;
+	/*background-color: red;*/
+	/*background-image: linear-gradient(to top left,green 0%,orange 60%,red 100%);*/
+    /*background-image: linear-gradient(-45deg, orange 0%, green 20%, blue 50%, red 100%); */
+	/*background-image: linear-gradient(to top right,rgba(0,0,0,0.6),rgba(0,0,0,0));*/
+	/*background-image: repeating-linear-gradient(to top,orange 10px,green 30px);
+	background-image: -moz-repeating-linear-gradient(to top,orange 10px,green 30px);*/
+	/*background-image: linear-gradient(to bottom,green 20px,orange 30px,purple 80px,red 292px);*/
+	/*background-image: radial-gradient(190px at center,orange,green);*/
+	/*background-image: radial-gradient(circle 300px at top,orange 80%,green);*/
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+p {
+	font-size: 50px;
+	/*text-decoration: underline;*/
+	/*text-decoration: overline;
+	text-decoration: line-through;*/
+	/*text-transform: uppercase;*/
+	/*text-transform: lowercase;*/
+	/*text-transform: capitalize;*/
+	/*text-shadow:6px -5px 4px orange;*/
+	background: #999;
+	/*text-align: left;*/
+	/*text-align: right;*/
+	/*text-align: center;*/
+	/*text-align: justify;*/
+	/*white-space: pre;*/
+	/*letter-spacing:10px;*/
+	/*word-spacing: 20px;*/
+	/*word-wrap:break-word;*/
+}
+/*table td:first-child {
+	visibility: collapse;
+}*/
+div {
+	width: 200px;
+	height: 200px;
+	background: gray;
+	border-radius: 20px 0 40px 0;
+}

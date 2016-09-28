@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+div {
+	/*-moz-columns: 300px 4;*/
+	/*-moz-column-width: 200px;
+	-moz-column-count: 3;*/
+	-moz-columns: 200px 3;
+	-moz-column-gap: 150px;
+	-moz-column-rule:20px dashed silver;
+	-webkit-columns: 200px 3;
+	-webkit-column-gap: 150px;
+	-webkit-column-rule:20px dashed silver;
+	columns: 200px 3;
+	column-gap: 150px;
+	column-rule:20px dashed silver;
+}
+h1 {
+	text-align: center;
+	-moz-column-span: all;
+	-webkit-column-span: all;
+	column-span: all;
+}

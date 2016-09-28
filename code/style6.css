@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+/*div {
+	width: 400px;
+	height: 400px;
+	border-image-source: url(border.png);
+	border-image-width: 27px;
+	border-image-slice: 27 fill;
+	border-image-repeat: round;
+}*/
+/*div {
+	width: 400px;
+	height: 40px;
+	border-image-source: url(button.png);
+	border-image-width: 10px;
+	border-image-slice: 10 fill;
+	border-image-repeat: stretch;
+}*/
+/*div {
+	width: 400px;
+	height: 40px;
+	border-image: url(button.png) 10 fill/10px stretch;
+	text-align: center;
+	line-height: 40px;
+}
+*/
+
+div {
+	width: 200px;
+	height: 140px;
+	border-image-source: url(button.png);
+	border-image-width: 10px;
+	border-image-slice: 10 fill;
+	border-image: url(button.png) 10 fill/10px;
+}

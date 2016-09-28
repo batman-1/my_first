@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+div {
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin: 200px;
+	box-shadow:5px 5px 8px 4px #666;
+	/*transform: translate(0,200px);*/
+	/*transform: translatex(100px);*/
+	/*transform: translatey(100px);*/
+	/*transform: scale(0.5);*/
+	/*transform: scalex(1.5);*/
+	/*transform: scaley(1.5);*/
+	/*transform: rotate(0deg);*/
+	/*transform: skew(60deg);*/
+	/*transform: translate(100px,0) scale(1.2) rotate(20deg) skewy(20deg);*/
+	/*transform: rotate(40deg);*/
+	/*transform: scalex(0.5);*/
+	transform: rotate(40deg);
+	-ms-transform-origin: left bottom;
+	-webkit-transform-origin: left bottom;
+	-moz-transform-origin: left bottom;
+}

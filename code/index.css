@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*[href] {
+	
+	font-size: 50px;
+}*/
+/*[type="text"] {
+	border: 1px solid black;
+}
+[href^="http"] {
+	color:orange;
+}*/
+/*[href$="cc"] {
+	color:orange;
+}*/
+/*[href*="baidu"] {
+	color:red;
+}*/
+/*[class~="def"] {
+	color: red;
+}
+[lang|="en"] {
+	color:red;
+}*/
+/*p ~ h1 {
+	color:red;
+}*/
+/*::first-line {
+	color:red;
+}*/
+/*::first-letter {
+	color:orange;
+}*/
+/*a::before {
+	content: '点击';
+}*/
+a::after {
+	content: '搜索';
+}
