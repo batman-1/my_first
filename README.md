@@ -14,6 +14,7 @@
 - git pull origin master 更新本地库
 - git status             查看文件状态
 - git status -sb         XX都可以看懂的状态
+
 ### 加入git之前的配置
 > git config user.name xxx<br>
   git config user.email xxx<br>
